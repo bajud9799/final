@@ -1,0 +1,172 @@
+﻿﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="C:\Users\pci178\Downloads\font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.min.css" rel="stylesheet" />
+    <script src="../wwwroot/lib/jquery/dist/jquery.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="stylefaq.css" rel="stylesheet" />
+    <script>
+        $(document).ready(function () {
+            // Add minus icon for collapse element which is open by default
+            $(".collapse.show").each(function () {
+                $(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+            });
+
+            // Toggle plus minus icon on show hide of collapse element
+            $(".collapse").on('show.bs.collapse', function () {
+                $(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+            }).on('hide.bs.collapse', function () {
+                $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+            });
+        });
+    </script>
+    <title>FAQ</title>
+
+</head>
+<body>
+    <div class="container-fluid " id="main">
+        <header>
+            <nav class="navbar navbar-expand-md sticky-top">
+                <a href="home.html">
+                    <img class="" src="images/logo_1.png" alt="Alternate Text" />
+                </a>
+                <div class="navbar-toggler" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <img class="manu" src="images/menu.svg" />
+                </div>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="work.html">HOW IT WORKS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contect.html">CONTACT US</a>
+                        </li>
+
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+
+                        <button class="btn btn-outline-primary my-2 my-sm-0 text-white border-white" type="submit">Login</button>
+                    </form>
+                </div>
+            </nav>
+            <h1 class="text-white">FAQ</h1>
+        </header>
+    </div>
+
+    <div class="container">
+        <div class="bs-example">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header container-fluid" id="headingZero">
+                        <span class="col-lg-11" data-toggle="collapse" data-target="#collapseZero">How are projects chosen for Volunteer Overseas?</span>
+                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseZero">
+                            <img class="fa fa-plus" src="images/arrow-toggle.png" alt="Alternate Text" />
+                        </a>
+                    </div>
+                    <div id="collapseZero" class="collapse show" aria-labelledby="headingZero" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header container-fluid" id="headingOne">
+                        <span class="col-lg-11" data-toggle="collapse" data-target="#collapseOne">Can I get in touch with other volunteers who have been on these projects?</span>
+                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseOne">
+                            <img class="fa fa-plus" src="images/arrow-toggle.png" alt="Alternate Text" />
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header container-fluid" id="headingTwo">
+                        <span class="col-lg-11" data-toggle="collapse" data-target="#collapseTwo">What happens after I apply for a program?</span>
+                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseTwo">
+                            <img class="fa fa-plus" src="images/arrow-toggle.png" alt="Alternate Text" />
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse " aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header d-flex" id="headingThree">
+                        <span class="col-lg-11" data-toggle="collapse" data-target="#collapseThree">When will I hear if I'm accepted into a volunteer program?</span>
+                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseThree">
+                            <img class="fa fa-plus" src="images/arrow-toggle.png" alt="Alternate Text" />
+                        </a>
+                    </div>
+                    <div id="collapseThree" class="collapse " aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header d-flex" id="headingFour">
+                        <span class="col-lg-11" data-toggle="collapse" data-target="#collapseFour">Am I locked into a start date or project length, or can I change either after I apply?</span>
+                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseFour">
+                            <img class="fa fa-plus" src="images/arrow-toggle.png" alt="Alternate Text" />
+                        </a>
+                    </div>
+                    <div id="collapseFour" class="collapse " aria-labelledby="headingFour" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header container-fluid" id="headingFive">
+                        <span class="col-lg-11" data-toggle="collapse" data-target="#collapseFive">Am I locked into a start date or project length, or can I change either after I apply?</span>
+                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseFive">
+                            <img class="fa fa-plus" src="images/arrow-toggle.png" alt="Alternate Text" />
+                        </a>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header container-fluid" id="headingSix">
+                        <span class="col-lg-11" data-toggle="collapse" data-target="#collapseSix">Is there a minimum age requirement for Volunteer Overseas's programs?</span>
+                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseSix">
+                            <img class="fa fa-plus" src="images/arrow-toggle.png" alt="Alternate Text" />
+                        </a>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer">
+            <a href="home.html">
+                <img class="" src="images/logo_1.png" alt="Alternate Text" />
+            </a>
+            <a class="footer-a" href="contect.html">CONTACT US</a>
+            <a class="footer-a" href="faq.html">FAQ</a>
+        </div>
+    </footer>
+</body>
+</html>

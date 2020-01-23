@@ -1,0 +1,414 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+
+#main {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0)0%, rgba(0, 0, 0, 0.06) 10%, rgba(0, 0, 0, 0.15) 22%,rgba(0, 0, 0, 0.72) 75%, rgba(0, 0, 0, 0.84) 89%, rgba(0, 0, 0, 0.91) 100%),url(images/banner3.jpg);
+}
+.home-logo{
+    margin-right:20px;
+}
+header {
+    height: 350px;
+    top: 0px;
+}
+
+select {
+    -webkit-appearance: none;
+    background: url('images/down-arrow-black.svg') no-repeat right;
+    background-size:10px;
+}
+#main h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+}
+
+.logo-1 {
+    height: 60px;
+}
+
+header nav {
+    height: auto;
+    border-bottom: 1px solid white;
+    position:sticky;
+}
+
+.nav navbar-nav {
+    float: left;
+    margin-left: 100px;
+}
+
+.nav-left {
+    padding: 15px;
+}
+
+.nav-link {
+    color: white;
+}
+
+header .btn1 {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #fff;
+}
+header nav a:hover{
+    color:#fff;
+}
+
+#btn2 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #00acc1;
+    font-size: 17px;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.container {
+    padding-top: 40px;
+}
+
+
+
+iframe {
+    width: 100%;
+}
+
+#ghana {
+    color: #e53b51;
+}
+
+.nav2 {
+    border-top: 1px solid #3d3d3d;
+    display: flex;
+    justify-content: space-between;
+    background-color:#fff;
+}
+
+    .nav2 a {
+        text-align: center;
+        color: #00acc1;
+        width: 20%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+        .nav2 a:hover {
+            background-color: #e53b51;
+            color: #fff;
+            text-decoration: none;
+        }
+
+.play-logo {
+    border: 2px solid #cccccc;
+}
+
+    .play-logo h4 {
+    }
+
+.cost > div {
+    position: relative;
+    border: 0.6px solid #ccc;
+    width: 100%;
+    height: 100px;
+}
+
+.duration {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+}
+
+    .duration div {
+    }
+
+.vl {
+    border-left: 1px solid #ccc;
+    align-self: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+table {
+}
+
+    table tr {
+        display: table-cell;
+    }
+
+        table tr td {
+            display: block;
+            text-align: center;
+            border: 1px solid #cccccc;
+            color: #00acc1;
+        }
+            table tr td b {
+                color: #e53b51;
+            }
+
+        table tr th {
+            display: block;
+            text-align: center;
+            border: 1px solid #fff;
+            color: white;
+            background-color: #00acc1;
+        }
+
+.right-button {
+    position: absolute;
+    left: 90%;
+    background-color: transparent;
+}
+
+.text-logo h4 {
+    padding-top: 35px;
+    padding-left: 15px;
+}
+
+.form1 {
+    background-color: #00acc1;
+    position: sticky;
+    top: 0;
+    color: white;
+    padding: 20px;
+    height: 400px;
+}
+
+    .form1 a {
+        color: white;
+        text-decoration: underline;
+    }
+
+#calander div img {
+    height: 38px;
+    background-color: white;
+    border-radius: 5px 0 0 5px;
+}
+/*.datepicker{
+    background-color:#fff;
+}*/
+
+/*#icon-date {
+    padding-left: 50px;
+}*/
+
+#check {
+    color: dimgrey;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+.check1 {
+    margin-left: -15px;
+    border-left: 1px solid #3d3d3d;
+}
+
+#not {
+    background-color: #e53b51;
+    margin-left: -14px;
+    margin-right: -14px;
+    height: auto;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.what-include {
+    margin-left: -14px;
+    margin-right: -14px;
+    background-color: #00acc1;
+    color: white;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.border-form {
+    background-color: #26b8ca;
+    color: white;
+}
+
+    .border-form p {
+        padding-left: 10px;
+    }
+
+
+footer {
+    background-color: #454848;
+    display: flex;
+    height: auto;
+}
+
+    footer img {
+        margin: 15px;
+    }
+
+    footer .footer-a {
+        float: right;
+        margin-top: 1.5%;
+        padding: 15px;
+        color: white;
+    }
+
+        footer .footer-a:hover {
+            color: #fff;
+        }
+h2 {
+    color: #00acc1;
+}
+
+#main2 h4 {
+    color: #00acc1;
+}
+
+h4 {
+    color: #e53b51;
+}
+
+h6 {
+    font-size: 19px;
+}
+
+@media only screen and (min-width : 320px) and (max-width: 600px) {
+    .home-logo{
+        margin-right:0;
+        width:70%;
+    }
+    p {
+        font-size: 12px;
+    }
+
+    .logo-1 {
+        height: 45px;
+    }
+
+    #btn2 {
+        right: 10px;
+        left: auto;
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    #main h1 {
+        font-size: 23px;
+        text-align: center
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    h4 {
+        font-size: 17px;
+    }
+
+    #pin {
+        height: 18px;
+    }
+
+    #ghana {
+        font-size: 15px;
+    }
+
+    .play-logo {
+        height: 70px;
+    }
+
+    .text-logo h4 {
+        padding-top: 15%;
+    }
+
+    #icon1 {
+        display: grid;
+        margin-right: 5px;
+    }
+
+    .nav2 {
+        justify-content: space-between;
+    }
+
+        .nav2 a {
+            font-size: 10px;
+            width: auto;
+        }
+
+    .duration {
+        display: grid;
+        text-align: center;
+    }
+
+    .vl {
+        display: grid;
+        text-align: center;
+    }
+
+        .vl div img {
+            width: 60%;
+        }
+
+    .check1 {
+        border-left: none;
+        margin:auto;
+    }
+
+    .footer {
+        display: grid;
+        flex-wrap: wrap;
+        height: 150px;
+        text-align: center;
+    }
+
+        .footer img {
+            width: 40%;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .footer .footer-a {
+            font-size: 12px;
+            margin: 0;
+            padding: 0;
+        }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #main h1 {
+        font-size: 32px;
+        text-align: center
+    }
+
+    .nav2 {
+        justify-content: space-between;
+    }
+
+        .nav2 a {
+            font-size: 16px;
+            width: auto;
+        }
+
+    #btn2 {
+        right: 10px;
+        left: auto;
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    #main1 {
+        display: grid;
+    }
+}
