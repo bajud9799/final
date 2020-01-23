@@ -3,13 +3,13 @@
     margin: 0;
     font-family: roboto;
 }
-
 #main {
     position: relative;
     background-size: cover;
     background-position: center;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0)0%, rgba(0, 0, 0, 0.06) 10%, rgba(0, 0, 0, 0.15) 22%,rgba(0, 0, 0, 0.72) 75%, rgba(0, 0, 0, 0.84) 89%, rgba(0, 0, 0, 0.91) 100%),url(images/banner3.jpg);
 }
+
 .home-logo{
     margin-right:20px;
 }
@@ -38,7 +38,6 @@ select {
 header nav {
     height: auto;
     border-bottom: 1px solid white;
-    position:sticky;
 }
 
 .nav navbar-nav {
@@ -95,6 +94,9 @@ iframe {
     display: flex;
     justify-content: space-between;
     background-color:#fff;
+    position:sticky;
+    top:100px;
+
 }
 
     .nav2 a {
@@ -141,24 +143,24 @@ iframe {
     display: flex;
 }
 
-table {
+.table1 {
 }
 
-    table tr {
+    .table1 tr {
         display: table-cell;
     }
 
-        table tr td {
+        .table1 tr td {
             display: block;
             text-align: center;
             border: 1px solid #cccccc;
             color: #00acc1;
         }
-            table tr td b {
+            .table1 tr td b {
                 color: #e53b51;
             }
 
-        table tr th {
+        .table1 tr th {
             display: block;
             text-align: center;
             border: 1px solid #fff;
@@ -180,7 +182,7 @@ table {
 .form1 {
     background-color: #00acc1;
     position: sticky;
-    top: 0;
+    top: 100px;
     color: white;
     padding: 20px;
     height: 400px;
@@ -249,7 +251,6 @@ table {
 
 footer {
     background-color: #454848;
-    display: flex;
     height: auto;
 }
 
@@ -284,9 +285,12 @@ h6 {
 }
 
 @media only screen and (min-width : 320px) and (max-width: 600px) {
-    .home-logo{
+    .home-logo {
+        width:150px;
+    }
+    .home-logo img{
         margin-right:0;
-        width:70%;
+        width:100%;;
     }
     p {
         font-size: 12px;
@@ -302,12 +306,15 @@ h6 {
         font-size: 14px;
         padding: 5px;
     }
+    #main ul li{
+        margin-left:-15px;
+    }
 
     #main h1 {
         font-size: 23px;
         text-align: center
     }
-
+    
     h2 {
         font-size: 21px;
     }

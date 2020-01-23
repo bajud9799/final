@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="dropkick.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="C:\Users\pci178\Downloads\font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -14,8 +14,12 @@
     <!--<link href="blank.css" rel="stylesheet" />-->
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!--<link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css" rel="stylesheet" />
+    <link href="https://code.jquery.com/ui/1.12.1/themes/ui-lightness/jquery-ui.css" rel="stylesheet" />-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/css/bootstrap-datepicker3.min.css">
     <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/js/bootstrap-datepicker.min.js"></script>
+
+
     <script>
         $(document).ready(function () {
             $(window).scroll(function () { if ($(window).scrollTop() > 0) { $(".wrapper").addClass('small-header'); } else { $(".wrapper").removeClass('small-header'); } });
@@ -44,381 +48,396 @@
 
 </head>
 <body>
-    <div class="xyz">
-        <div class="container-fluid" id="main">
-            <header class="">
-                <nav class="navbar navbar-expand-sm sticky-top wrapper">
-                    <a href="home.html" class="">
-                        <img class="home-logo" src="images/logo_1.png" alt="Alternate Text" />
-                    </a>
-                    <div class="navbar-toggler" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                        <img src="images/menu.svg" />
-                    </div>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <ul class="nav navbar-nav mr-auto">
-                            <li class="nav-left"><a class="nav-link" href="work.html">HOW IT WORKS</a></li>
-                            <li class="nav-left"><a class="nav-link" href="contect.html">CONTACT US</a></li>
-                        </ul>
-                        <form class="form-inline my-2 my-lg-0 ">
-                            <button class="my-2 btn1  btn" type="submit">LOGIN</button>
-                        </form>
-                    </div>
-                </nav>
-            </header>
-            <div>
-                <h1>Ghana Medical Volunteers</h1>
-            </div>
-            <button id="btn2"> <img src="images/photos-icon.png" /> View Photos </button>
+    <!--<nav class="navbar navbar-expand-sm sticky-top wrapper">
+        <a href="home.html" class="home-logo">
+            <img class="" src="images/logo_1.png" alt="Alternate Text" />
+        </a>
+        <div class="navbar-toggler" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="images/menu.svg" />
         </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="nav navbar-nav mr-auto">
+                <li class="nav-left"><a class="nav-link" href="work.html">HOW IT WORKS</a></li>
+                <li class="nav-left"><a class="nav-link" href="contect.html">CONTACT US</a></li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 ">
+                <button class="my-2 btn1  btn" type="submit">LOGIN</button>
+            </form>
+        </div>
+    </nav>-->
+    <div class="container-fluid" id="main">
+        <header class="">
+            <nav class="navbar navbar-expand-sm sticky-top wrapper">
+                <a href="home.html" class="home-logo">
+                    <img class="" src="images/logo_1.png" alt="Alternate Text" />
+                </a>
+                <div class="navbar-toggler" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="images/menu.svg" />
+                </div>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="nav navbar-nav mr-auto">
+                        <li class="nav-left"><a class="nav-link" href="work.html">HOW IT WORKS</a></li>
+                        <li class="nav-left"><a class="nav-link" href="contect.html">CONTACT US</a></li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0 ">
+                        <button class="my-2 btn1  btn" type="submit">LOGIN</button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+        <div>
+            <h1>Ghana Medical Volunteers</h1>
+        </div>
+        <button id="btn2"> <img src="images/photos-icon.png" /> View Photos </button>
+    </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mr-auto">
-                    <div id="main1" class="row">
-                        <div class="col-md-8">
-                            <h2><b>Ghana Medical Volunteers</b></h2>
-                        </div>
-                        <div class="col-md-4">
-                            <img id="pin" src="images/pin.png" />
-                            <a href="#location" id="ghana">Kumasi,Ghana</a>
-                        </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mr-auto">
+                <div id="main1" class="row">
+                    <div class="col-md-8">
+                        <h2><b>Ghana Medical Volunteers</b></h2>
                     </div>
-                    <br />
-                    <div id="main2">
-                        <div class="d-flex text-logo">
-                            <div>
-                                <img src="images/play-logo.png" class="play-logo" />
-                            </div>
-                            <div>
-                                <h4><b>Plan My Gap Year</b></h4>
-                            </div>
-                        </div>
-                        <div class="p-2 row">
-                            <div class="pl-3" id="icon1">
-                                <img src="images/icon1.png" />
-                                <a class="text-muted">From $714 for 2 weeks</a>
-                            </div>
-                            <div class="pl-3" id="icon1">
-                                <img src="images/icon2.png" />
-                                <a class="text-muted">2-24 Weeks</a>
-                            </div>
-                            <div class="pl-3" id="icon1">
-                                <img src="images/icon3.png" />
-                                <a class="text-muted">18 And Older</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="nav2 sticky-top">
-                        <a href="#description">DESCRIPTION</a>
-                        <a href="#location">LOCATION</a>
-                        <a href="#cost">COST</a>
-                        <a href="#dates">DATES</a>
-                        <a href="#organization">ORGANIZATION</a>
-                    </div>
-                    <div class="discription pt-5"  id="description">
-                        <h2><b>Description</b></h2>
-                        <div>
-                            <h4>Overview</h4>
-                        </div>
-                        <div class="description-p">
-                            <p>PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds. So whether you're a recent high school graduate (age 17 and older) whos looking for work experience to boost your university application, an undergraduate, or a nursing / medical student organising an overseas elective placement we have just the project for you!</p>
-                            <p>You will find the staff at the healthcare facilities welcome your support and are eager to share information. Over the course Of undergraduate, or a nursing / medical student organising an overseas elective placement we have just the project for you! </p>
-                            <p>You will find the staff at the healthcare facilities welcome your support and are eager to share information. Over the course of your placement, you will witness a range of cases that you may never come across in a uK medical setting, such as Typhoid, Polio and TB You will also have the chance to learn about tropical diseases such as Malaria, Leishmaniasis and Dengue. Although the hospital has adopted modern forms Of treatment. you will experience how cases are treated within an under- resourced and poorly staffed healthcare system and how the staff faces these challenges. Furthermore. you will see how cultural factors and a lack of education/health awareness impact the alarmingly high number of preventable cases admitted each day Many students also find it fascinating to witness the dynamics of the doctor-patient relationship in comparison to medical settings in the UK and abroad.</p>
-                            <p>Those with little or no medical experience assume a largely observational role. If you are a medical or pre-medical student, you may have the opportunity for some more basic hands-on involvement, at the discretion Of medical staff.</p>
-                            <p>It is important to be mindful that the work you are assigned is not above your comfort or qualification level.</p>
-                            <p>The maximum recommended duration for a medical experience is 6 weeks, As for all PMGY volunteer in Ghana programs, it is possible to combine your healthcare program with Other community based volunteering projects, such as helping at the orphanage or the teaching project. If this is something you'd like to do, please apply for the medical volunteer program but also outline the details of the other projects that interest you in your online application. Our local team will finalise the details of your placements during your in-country orientation.</p>
-
-                        </div>
-                    </div>
-
-                    <div class="Field-Conditions">
-                        <h4>Field Conditions</h4>
-                    </div>
-                    <div class="Field-Conditions-p">
-                        <p>Your first night in Ghana will be spent at a hostel near Kotoka International Airport in Accra. Our partner hostel offers basic but comfortable accommodation. you Will share an air-conditioned room With fellow volunteers. A member of the PMGY Ghana team will also stay at the hostel to ensure you have 24/7 support and will travel with you to Kumasi, which is approximately five hours away, the next day.</p>
-                        <p>During your time with PMGY in Ghana, you will live in our Volunteer House, located in a friendly neighborhood, a 45 minutes drive from Kumasi city centre. Not only is there is a small shop opposite the Volunteer House, you will find restaurants, convenience stores and ATMs in the center of town, where the local community is extremely friendly.</p>
-                        <p>Your home away from home is basic but comfortable with free Wi-Fi (although intermittent). Each room is furnished with bunk beds for up to 6 people per same-sex rooms. Volunteers are provided with bed linen, fans, and their own mosquito net. Bathrooms are shared, have a shower and UK style toilet. The water iS cold but this shouldn't be a problem as Ghana is hot all year-round! </p>
-                        <p>The Volunteer House is shared by volunteers from a variety of programs. only adding to the richness of your experience. In the communal area, you'll find a lounge With a TV and DVD player and an outside seating area. volunteers are welcome to use the kitchen to prepare meals or even help out when meals are being prepared. A member of our local team will also live at the house which is gated and secure. Our local coordinator lives on-site to ensure you have around the clock support and security</p>
-                        <p>When not working, there is plenty to do with your new friends in Kumasi, which is Ghana's second biggest city, like exploring Kejetia Market. the Menhya Palace, or Lake Bosumtri, the only natural lake in Ghana.</p>
-                        <p>Please note in advance that power cuts and water shortages are very common in Ghana, but alternative solutions exist when these circumstances arise. </p>
-                        <p>During our busiest months (June to September) you may be placed at alternative accommodation. This could be a nearby guesthouse or one of our summer Volunteer Houses.</p>
-
-                    </div>
-
-                    <div class="Impact">
-                        <h4>Your Impact</h4>
-                    </div>
-                    <div class="Impact-p">
-                        <p>Access to healthcare in Ghana has improved dramatically since the introduction of the National Health Insurance Act in 2003. The hospitals are poorly resourced and under-staffed by UK standards, so you will have a very eye-opening experience. You will be placed in a number of different departments, so that you can receive broad insight into the Ghanaian healthcare system.</p>
-                        <p>The large majority of patients arrive due to illnesses related to poor sanitation. Malaria is also a huge issue and remains the cause of many deaths and illnesses. In addition, HIV/AIDS continues to harm the lives of so many Ghanaians. Many of the major causes of death and serious illness are avoidable.</p>
-                        <p>The departments we can arrange placements in are:</p>
-                        <p>Adolescent counselling, community Health Education, Dentistry, Ear, Nose and Throat (ENT), General surgery, Laboratory, Nursing, Maternity & Midwifery, Obstetrics & Gynaecology, Ophthalmology, Paediatrics, Pharmacology, Physical Therapy. Physiotherapy, Prenatal, Psychology, Radiology, Ultrasound </p>
-                        <p>The medical staff are accountable for you while you're under their supervision, so it is completely up to them if you are permitted to get involved in hands-on procedures. Whilst previous PMGY volunteers have been given the chance to administer IV injections, dress wounds etc, we can never guarantee or promote hands-on involvement for participants regardless of their medical experience or background.</p>
-                        <p> We also offer more specific program opportunities for dentistry, medical, midwifery and nursing students looking to take part in an overseas elective. we can tailor the placement around your needs and design your work schedule around the requirements for your elective. PMGY can also complete any paperwork required by your university, as we receive many healthcare students in Ghana for their elective placement.</p>
-
-                    </div>
-
-                    <div>
-                        <video controls="controls" style="width:100%">
-                            <source src="images/video.mp4" type="video/mp4" />
-                        </video>
-                    </div>
-
-                    <hr />
-
-                    <div class="Location pt-5" id="location">
-                        <h2><b>Location</b></h2>
-                    </div>
-
-                    <br />
-
-                    <div class="Location-img">
-                        <img src="images/pin.png" />
+                    <div class="col-md-4">
+                        <img id="pin" src="images/pin.png" />
                         <a href="#location" id="ghana">Kumasi,Ghana</a>
                     </div>
-
-                    <br />
-
+                </div>
+                <br />
+                <div id="main2">
+                    <div class="d-flex text-logo">
+                        <div>
+                            <img src="images/play-logo.png" class="play-logo" />
+                        </div>
+                        <div>
+                            <h4><b>Plan My Gap Year</b></h4>
+                        </div>
+                    </div>
+                    <div class="p-2 row">
+                        <div class="pl-3" id="icon1">
+                            <img src="images/icon1.png" />
+                            <a class="text-muted">From $714 for 2 weeks</a>
+                        </div>
+                        <div class="pl-3" id="icon1">
+                            <img src="images/icon2.png" />
+                            <a class="text-muted">2-24 Weeks</a>
+                        </div>
+                        <div class="pl-3" id="icon1">
+                            <img src="images/icon3.png" />
+                            <a class="text-muted">18 And Older</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav2">
+                    <a href="#description">DESCRIPTION</a>
+                    <a href="#location">LOCATION</a>
+                    <a href="#cost">COST</a>
+                    <a href="#dates">DATES</a>
+                    <a href="#organization">ORGANIZATION</a>
+                </div>
+                <div class="discription pt-5" id="description">
+                    <h2><b>Description</b></h2>
                     <div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.698164678886!2d72.49826931496798!3d23.03485218494687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8352e403437b%3A0xdc9d4dae36889fb9!2sTatvaSoft!5e0!3m2!1sen!2sin!4v1578562117822!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        <h4>Overview</h4>
                     </div>
+                    <div class="description-p">
+                        <p>PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds. So whether you're a recent high school graduate (age 17 and older) whos looking for work experience to boost your university application, an undergraduate, or a nursing / medical student organising an overseas elective placement we have just the project for you!</p>
+                        <p>You will find the staff at the healthcare facilities welcome your support and are eager to share information. Over the course Of undergraduate, or a nursing / medical student organising an overseas elective placement we have just the project for you! </p>
+                        <p>You will find the staff at the healthcare facilities welcome your support and are eager to share information. Over the course of your placement, you will witness a range of cases that you may never come across in a uK medical setting, such as Typhoid, Polio and TB You will also have the chance to learn about tropical diseases such as Malaria, Leishmaniasis and Dengue. Although the hospital has adopted modern forms Of treatment. you will experience how cases are treated within an under- resourced and poorly staffed healthcare system and how the staff faces these challenges. Furthermore. you will see how cultural factors and a lack of education/health awareness impact the alarmingly high number of preventable cases admitted each day Many students also find it fascinating to witness the dynamics of the doctor-patient relationship in comparison to medical settings in the UK and abroad.</p>
+                        <p>Those with little or no medical experience assume a largely observational role. If you are a medical or pre-medical student, you may have the opportunity for some more basic hands-on involvement, at the discretion Of medical staff.</p>
+                        <p>It is important to be mindful that the work you are assigned is not above your comfort or qualification level.</p>
+                        <p>The maximum recommended duration for a medical experience is 6 weeks, As for all PMGY volunteer in Ghana programs, it is possible to combine your healthcare program with Other community based volunteering projects, such as helping at the orphanage or the teaching project. If this is something you'd like to do, please apply for the medical volunteer program but also outline the details of the other projects that interest you in your online application. Our local team will finalise the details of your placements during your in-country orientation.</p>
 
-                    <hr />
-
-                    <div class="cost pt-5" id="cost">
-                        <h2><b>Cost</b></h2>
-                        <p>The Cost below includes a registration fee $193.00. The remainder or Program Fee is due 60 days prior to the start of your program</p>
-                        <div class="d-flex justify-content-between ">
-                            <div class="duration col-lg-6">
-                                <div>
-                                    <img src="images/icon2.png" />
-                                </div>
-                                <div>
-                                    <h2><b>Duration</b></h2>
-                                </div>
-                                <div class="option1">
-                                    <select class="pr-3">
-                                        <option value="1">2 Weeks</option>
-                                        <option value="2">3 Weeks</option>
-                                        <option value="3">4 Weeks</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="vl col-lg-6">
-                                <div>
-                                    <img src="images/ico5.png" />
-                                </div>
-                                <div>
-                                    <h2><b>Cost:</b></h2>
-                                </div>
-                                <div>
-                                    <h2>$714</h2>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <hr />
-                    <div class="include mt-5">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h2 class="what-include">
-                                    <b> What's Included</b>
-                                </h2>
-                                <div id="check">
-                                    <div class="d-flex">
-                                        <img src="images/new-tick.png" width="28" height="25" />
-                                        <h5>Accommodation</h5>
-                                    </div><div class="d-flex">
-                                        <img src="images/new-tick.png" width="28" height="25" />
-                                        <h5>Accommodation</h5>
-                                    </div><div class="d-flex">
-                                        <img src="images/new-tick.png" width="28" height="25" />
-                                        <h5>Accommodation</h5>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <h2 id="not">
-                                    <b> What's Not Included</b>
-                                </h2>
-                                <div id="check" class="check1">
-                                    <div class="d-flex justify-content-start">
-                                        <img src="images/non-check.png" width="28" height="25" />
-                                        <h5>Accommodation</h5>
-                                    </div><div class="d-flex justify-content-start">
-                                        <img src="images/non-check.png" width="28" height="25" />
-                                        <h5>Accommodation</h5>
-                                    </div><div class="d-flex justify-content-start">
-                                        <img src="images/non-check.png" width="28" height="25" />
-                                        <h5>Accommodation</h5>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="center" id="content">
-
-                        <div class="row mt-3 col-lg-12" id="data">
-                            <div class="right-button">
-                                <button id="right-button" class="btn" onclick="my()">
-                                    <img src="images/right-white-arrow.png" />
-                                </button>
-                            </div>
-                            <div class="table table-responsive">
-                                <table class="table table-condensed tablesorter">
-                                    <tr>
-                                        <th>January 2018</th>
-                                        <td><b>07</b> Sunday</td>
-                                        <td><b>07</b> Sunday</td>
-                                    </tr>
-                                    <tr>
-                                        <th>January 2018</th>
-                                        <td><b>07</b> Sunday</td>
-                                        <td><b>07</b> Sunday</td>
-                                    </tr>
-                                    <tr>
-                                        <th>January 2018</th>
-                                        <td><b>07</b> Sunday</td>
-                                        <td><b>07</b> Sunday</td>
-                                    </tr>
-                                    <tr>
-                                        <th>January 2018</th>
-                                        <td><b>07</b> Sunday</td>
-                                        <td><b>07</b> Sunday</td>
-                                    </tr>
-                                    <tr>
-                                        <th>January 2018</th>
-                                        <td><b>07</b> Sunday</td>
-                                        <td><b>07</b> Sunday</td>
-                                    </tr>
-                                    <tr>
-                                        <th>January 2018</th>
-                                        <td><b>07</b> Sunday</td>
-                                        <td><b>07</b> Sunday</td>
-                                    </tr>
-                                    <tr>
-                                        <th>January 2018</th>
-                                        <td><b>07</b> Sunday</td>
-                                        <td><b>07</b> Sunday</td>
-                                    </tr>
-                                    <tr>
-                                        <th>January 2018</th>
-                                        <td><b>07</b> Sunday</td>
-                                        <td><b>07</b> Sunday</td>
-                                    </tr>
-                                    <tr>
-                                        <th>January 2018</th>
-                                        <td><b>07</b> Sunday</td>
-                                        <td><b>07</b> Sunday</td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <hr />
-                    <div class="Start-Date pt-5" id="dates">
-                        <h2><b>Project Start Dates</b></h2>
-                        <p>
-                            PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
-                            PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
-                            PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
-                        </p>
-                        <p>
-                            PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
-                            PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
-                            PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
-                        </p>
-                        <p>
-                            PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
-                            PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
-                        </p>
-                    </div>
-
-                    <hr />
-                    <div class="Organization pt-5" id="organization">
-                        <h2><b>Organization</b></h2>
-                        <p>
-                            PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
-                            PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
-                            PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
-                        </p>
-                        <p>
-                            PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
-                            PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
-                            PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
-                        </p>
-                        <p>
-                            PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
-                            PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
-                        </p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 form1  ">
-                    <div class="border-form">
-                        <h6><b>23 People</b> are researching this project</h6>
-                    </div>
-                    <form action="#" method="post">
-                        <label>Project Start date</label><br />
-                        <!--<div id="calander d-flex">
-                            <img src="images/orange-calander-icon.png" />
-                            <input type="text" id="datepicker" class="form-control" placeholder="Date" /><br />
-                        </div>-->
-                        <div class="input-group date pt-5" id="calander">
-                            <div class="input-group-addon">
-                                <img src="images/icon3.png" />
+                <div class="Field-Conditions">
+                    <h4>Field Conditions</h4>
+                </div>
+                <div class="Field-Conditions-p">
+                    <p>Your first night in Ghana will be spent at a hostel near Kotoka International Airport in Accra. Our partner hostel offers basic but comfortable accommodation. you Will share an air-conditioned room With fellow volunteers. A member of the PMGY Ghana team will also stay at the hostel to ensure you have 24/7 support and will travel with you to Kumasi, which is approximately five hours away, the next day.</p>
+                    <p>During your time with PMGY in Ghana, you will live in our Volunteer House, located in a friendly neighborhood, a 45 minutes drive from Kumasi city centre. Not only is there is a small shop opposite the Volunteer House, you will find restaurants, convenience stores and ATMs in the center of town, where the local community is extremely friendly.</p>
+                    <p>Your home away from home is basic but comfortable with free Wi-Fi (although intermittent). Each room is furnished with bunk beds for up to 6 people per same-sex rooms. Volunteers are provided with bed linen, fans, and their own mosquito net. Bathrooms are shared, have a shower and UK style toilet. The water iS cold but this shouldn't be a problem as Ghana is hot all year-round! </p>
+                    <p>The Volunteer House is shared by volunteers from a variety of programs. only adding to the richness of your experience. In the communal area, you'll find a lounge With a TV and DVD player and an outside seating area. volunteers are welcome to use the kitchen to prepare meals or even help out when meals are being prepared. A member of our local team will also live at the house which is gated and secure. Our local coordinator lives on-site to ensure you have around the clock support and security</p>
+                    <p>When not working, there is plenty to do with your new friends in Kumasi, which is Ghana's second biggest city, like exploring Kejetia Market. the Menhya Palace, or Lake Bosumtri, the only natural lake in Ghana.</p>
+                    <p>Please note in advance that power cuts and water shortages are very common in Ghana, but alternative solutions exist when these circumstances arise. </p>
+                    <p>During our busiest months (June to September) you may be placed at alternative accommodation. This could be a nearby guesthouse or one of our summer Volunteer Houses.</p>
+
+                </div>
+
+                <div class="Impact">
+                    <h4>Your Impact</h4>
+                </div>
+                <div class="Impact-p">
+                    <p>Access to healthcare in Ghana has improved dramatically since the introduction of the National Health Insurance Act in 2003. The hospitals are poorly resourced and under-staffed by UK standards, so you will have a very eye-opening experience. You will be placed in a number of different departments, so that you can receive broad insight into the Ghanaian healthcare system.</p>
+                    <p>The large majority of patients arrive due to illnesses related to poor sanitation. Malaria is also a huge issue and remains the cause of many deaths and illnesses. In addition, HIV/AIDS continues to harm the lives of so many Ghanaians. Many of the major causes of death and serious illness are avoidable.</p>
+                    <p>The departments we can arrange placements in are:</p>
+                    <p>Adolescent counselling, community Health Education, Dentistry, Ear, Nose and Throat (ENT), General surgery, Laboratory, Nursing, Maternity & Midwifery, Obstetrics & Gynaecology, Ophthalmology, Paediatrics, Pharmacology, Physical Therapy. Physiotherapy, Prenatal, Psychology, Radiology, Ultrasound </p>
+                    <p>The medical staff are accountable for you while you're under their supervision, so it is completely up to them if you are permitted to get involved in hands-on procedures. Whilst previous PMGY volunteers have been given the chance to administer IV injections, dress wounds etc, we can never guarantee or promote hands-on involvement for participants regardless of their medical experience or background.</p>
+                    <p> We also offer more specific program opportunities for dentistry, medical, midwifery and nursing students looking to take part in an overseas elective. we can tailor the placement around your needs and design your work schedule around the requirements for your elective. PMGY can also complete any paperwork required by your university, as we receive many healthcare students in Ghana for their elective placement.</p>
+
+                </div>
+
+                <div>
+                    <video controls="controls" style="width:100%">
+                        <source src="images/video.mp4" type="video/mp4" />
+                    </video>
+                </div>
+
+                <hr />
+
+                <div class="Location pt-5" id="location">
+                    <h2><b>Location</b></h2>
+                </div>
+
+                <br />
+
+                <div class="Location-img">
+                    <img src="images/pin.png" />
+                    <a href="#location" id="ghana">Kumasi,Ghana</a>
+                </div>
+
+                <br />
+
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.698164678886!2d72.49826931496798!3d23.03485218494687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8352e403437b%3A0xdc9d4dae36889fb9!2sTatvaSoft!5e0!3m2!1sen!2sin!4v1578562117822!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+
+                <hr />
+
+                <div class="cost pt-5" id="cost">
+                    <h2><b>Cost</b></h2>
+                    <p>The Cost below includes a registration fee $193.00. The remainder or Program Fee is due 60 days prior to the start of your program</p>
+                    <div class="d-flex justify-content-between ">
+                        <div class="duration col-lg-6">
+                            <div>
+                                <img src="images/icon2.png" />
                             </div>
-                            <input type="text" class="form-control pull-right" id="datepicker">
+                            <div>
+                                <h2><b>Duration</b></h2>
+                            </div>
+                            <div class="option1">
+                                <select class="pr-3">
+                                    <option value="1">2 Weeks</option>
+                                    <option value="2">3 Weeks</option>
+                                    <option value="3">4 Weeks</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="vl col-lg-6">
+                            <div>
+                                <img src="images/ico5.png" />
+                            </div>
+                            <div>
+                                <h2><b>Cost:</b></h2>
+                            </div>
+                            <div>
+                                <h2>$714</h2>
+                            </div>
                         </div>
 
-                        <label>Duration</label>
-                        <select id="normal_select" class="form-control">
-                            <option disabled selected>Choose One</option>
-                            <option value="2">2 Weeks</option>
-                            <option value="3">3 Weeks</option>
-                            <option value="4">4 Weeks</option>
-                            <option value="1">2 Weeks</option>
-                            <option value="2">3 Weeks</option>
-                            <option value="3">4 Weeks</option>
-                            <option value="1">2 Weeks</option>
-                            <option value="2">3 Weeks</option>
-                            <option value="3">4 Weeks</option>
-                            <option value="1">2 Weeks</option>
-                            <option value="2">3 Weeks</option>
-                            <option value="3">4 Weeks</option>
-                            <option value="1">2 Weeks</option>
-                            <option value="2">3 Weeks</option>
-                            <option value="3">4 Weeks</option>
-                            <option value="1">2 Weeks</option>
-                            <option value="2">3 Weeks</option>
-                            <option value="3">4 Weeks</option>
-                            <option value="1">2 Weeks</option>
-                            <option value="2">3 Weeks</option>
-                            <option value="3">4 Weeks</option>
-                            <option value="1">2 Weeks</option>
-                            <option value="2">3 Weeks</option>
-                            <option value="1">2 Weeks</option>
-                            <option value="2">3 Weeks</option>
-                            <option value="3">4 Weeks</option>
-                            <option value="1">2 Weeks</option>
-                            <option value="2">3 Weeks</option>
-                            <option value="1">2 Weeks</option>
-                            <option value="2">3 Weeks</option>
-                            <option value="3">4 Weeks</option>
-                            <option value="1">2 Weeks</option>
-                            <option value="2">3 Weeks</option>
-
-                        </select>
-
-
-                        <input type="submit" class="btn btn-block btn-danger mt-3" name="name" value="Apply Now" />
-
-                    </form>
-                    <h7>Applying through Volunteer Overseas gets you access to exculsive <a href="#">travel scholarships</a> and a no-free <a href="#">fundraising platform</a></h7>
+                    </div>
                 </div>
+                <hr />
+                <div class="include mt-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="what-include">
+                                <b> What's Included</b>
+                            </h2>
+                            <div id="check">
+                                <div class="d-flex">
+                                    <img src="images/new-tick.png" width="28" height="25" />
+                                    <h5>Accommodation</h5>
+                                </div><div class="d-flex">
+                                    <img src="images/new-tick.png" width="28" height="25" />
+                                    <h5>Accommodation</h5>
+                                </div><div class="d-flex">
+                                    <img src="images/new-tick.png" width="28" height="25" />
+                                    <h5>Accommodation</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <h2 id="not">
+                                <b> What's Not Included</b>
+                            </h2>
+                            <div id="check" class="check1">
+                                <div class="d-flex justify-content-start">
+                                    <img src="images/non-check.png" width="28" height="25" />
+                                    <h5>Accommodation</h5>
+                                </div><div class="d-flex justify-content-start">
+                                    <img src="images/non-check.png" width="28" height="25" />
+                                    <h5>Accommodation</h5>
+                                </div><div class="d-flex justify-content-start">
+                                    <img src="images/non-check.png" width="28" height="25" />
+                                    <h5>Accommodation</h5>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="center" id="content">
+
+                    <div class="row mt-3 col-lg-12" id="data">
+                        <div class="right-button">
+                            <button id="right-button" class="btn" onclick="my()">
+                                <img src="images/right-white-arrow.png" />
+                            </button>
+                        </div>
+                        <div class="table table-responsive">
+                            <table class="table table1 table-condensed tablesorter">
+                                <tr>
+                                    <th>January 2018</th>
+                                    <td><b>07</b> Sunday</td>
+                                    <td><b>07</b> Sunday</td>
+                                </tr>
+                                <tr>
+                                    <th>January 2018</th>
+                                    <td><b>07</b> Sunday</td>
+                                    <td><b>07</b> Sunday</td>
+                                </tr>
+                                <tr>
+                                    <th>January 2018</th>
+                                    <td><b>07</b> Sunday</td>
+                                    <td><b>07</b> Sunday</td>
+                                </tr>
+                                <tr>
+                                    <th>January 2018</th>
+                                    <td><b>07</b> Sunday</td>
+                                    <td><b>07</b> Sunday</td>
+                                </tr>
+                                <tr>
+                                    <th>January 2018</th>
+                                    <td><b>07</b> Sunday</td>
+                                    <td><b>07</b> Sunday</td>
+                                </tr>
+                                <tr>
+                                    <th>January 2018</th>
+                                    <td><b>07</b> Sunday</td>
+                                    <td><b>07</b> Sunday</td>
+                                </tr>
+                                <tr>
+                                    <th>January 2018</th>
+                                    <td><b>07</b> Sunday</td>
+                                    <td><b>07</b> Sunday</td>
+                                </tr>
+                                <tr>
+                                    <th>January 2018</th>
+                                    <td><b>07</b> Sunday</td>
+                                    <td><b>07</b> Sunday</td>
+                                </tr>
+                                <tr>
+                                    <th>January 2018</th>
+                                    <td><b>07</b> Sunday</td>
+                                    <td><b>07</b> Sunday</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="Start-Date pt-5" id="dates">
+                    <h2><b>Project Start Dates</b></h2>
+                    <p>
+                        PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
+                        PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
+                        PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
+                    </p>
+                    <p>
+                        PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
+                        PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
+                        PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
+                    </p>
+                    <p>
+                        PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
+                        PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
+                    </p>
+                </div>
+
+                <hr />
+                <div class="Organization pt-5" id="organization">
+                    <h2><b>Organization</b></h2>
+                    <p>
+                        PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
+                        PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
+                        PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
+                    </p>
+                    <p>
+                        PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
+                        PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
+                        PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
+                    </p>
+                    <p>
+                        PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
+                        PMGY's Ghana Medical Volunteer's program organises placements for people of all backgrounds.so whether you're a recent high school graduate who's looking for work experience to boost your University application.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 form1  ">
+                <div class="border-form">
+                    <h6><b>23 People</b> are researching this project</h6>
+                </div>
+                <form action="#" method="post">
+                    <label>Project Start date</label><br />
+                    <!--<div id="calander d-flex">
+                        <img src="images/orange-calander-icon.png" />
+                        <input type="text" id="datepicker" class="form-control" placeholder="Date" /><br />
+                    </div>-->
+                    <div class="input-group date pt-5" id="calander">
+                        <div class="input-group-addon">
+                            <img src="images/icon3.png" />
+                        </div>
+                        <input type="text" class="form-control pull-right" id="datepicker">
+                    </div>
+
+                    <label>Duration</label>
+                    <select id="normal_select" class="form-control">
+                        <option disabled selected>Choose One</option>
+                        <option value="2">2 Weeks</option>
+                        <option value="3">3 Weeks</option>
+                        <option value="4">4 Weeks</option>
+                        <option value="1">2 Weeks</option>
+                        <option value="2">3 Weeks</option>
+                        <option value="3">4 Weeks</option>
+                        <option value="1">2 Weeks</option>
+                        <option value="2">3 Weeks</option>
+                        <option value="3">4 Weeks</option>
+                        <option value="1">2 Weeks</option>
+                        <option value="2">3 Weeks</option>
+                        <option value="3">4 Weeks</option>
+                        <option value="1">2 Weeks</option>
+                        <option value="2">3 Weeks</option>
+                        <option value="3">4 Weeks</option>
+                        <option value="1">2 Weeks</option>
+                        <option value="2">3 Weeks</option>
+                        <option value="3">4 Weeks</option>
+                        <option value="1">2 Weeks</option>
+                        <option value="2">3 Weeks</option>
+                        <option value="3">4 Weeks</option>
+                        <option value="1">2 Weeks</option>
+                        <option value="2">3 Weeks</option>
+                        <option value="1">2 Weeks</option>
+                        <option value="2">3 Weeks</option>
+                        <option value="3">4 Weeks</option>
+                        <option value="1">2 Weeks</option>
+                        <option value="2">3 Weeks</option>
+                        <option value="1">2 Weeks</option>
+                        <option value="2">3 Weeks</option>
+                        <option value="3">4 Weeks</option>
+                        <option value="1">2 Weeks</option>
+                        <option value="2">3 Weeks</option>
+
+                    </select>
+
+
+                    <input type="submit" class="btn btn-block btn-danger mt-3" name="name" value="Apply Now" />
+
+                </form>
+                <h7>Applying through Volunteer Overseas gets you access to exculsive <a href="#">travel scholarships</a> and a no-free <a href="#">fundraising platform</a></h7>
             </div>
         </div>
     </div>
