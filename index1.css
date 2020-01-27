@@ -107,12 +107,14 @@ header nav {
 
 .anywhere {
     padding-top: 8px;
+    height:41px;
 }
 
 .btn-search {
     background-color: #e53b51;
     margin-top: 26px;
     width: 100px;
+    height:41px;
 }
 
     .btn-search a {

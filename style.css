@@ -58,6 +58,9 @@ header .btn1 {
     color: white;
     border: 1px solid #fff;
 }
+header .btn1:hover{
+    color:#fff;
+}
 header nav a:hover{
     color:#fff;
 }
